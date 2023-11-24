@@ -43,6 +43,6 @@ app.get("/login", function (req, res) {
 app.get("/signup", (req, res) => {
     res.render("signup")
 })
-app.listen(3000, () => {
+app.listen(80, () => {
     console.log("Servidor iniciado com sucesso!")
 })
