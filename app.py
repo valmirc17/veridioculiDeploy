@@ -4,7 +4,7 @@ from PIL import Image
 import io
 
 app = Flask(__name__, template_folder='views')
-CORS(app, resources={r"/rotacionar": {"origins": "http://localhost:3000"}})
+CORS(app, resources={r"/rotacionar": {"origins": "http://localhost:80"}})
 
 @app.route('/')
 def index():
