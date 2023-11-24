@@ -1,0 +1,53 @@
+<%- include('partials/header.ejs') %>
+<%- include('partials/navbar.ejs') %>
+<body class="index-page">
+    <div class="container">
+        <div class="content">
+                <div class="frame-signup">
+                    <div class="left-signup">
+                        <h2 class="center-text">Cadastro</h2>
+                        <div class="form-group">
+                            <label for="login">Usuário</label>
+                            <input type="text" class="form-control" id="username" placeholder="Digite o nome de usuário">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Senha</label>
+                            <input type="password" class="form-control" id="password" placeholder="Digite uma senha">
+                        </div>
+                        <div class="form-group">
+                            <label for="text">Nome completo</label>
+                            <input type="name" class="form-control" id="nm_usuario" placeholder="Digite seu nome completo">
+                        </div>
+                        <div class="form-group">
+                            <label for="text">CPF</label>
+                            <input type="text" class="form-control" id="cpf" placeholder="Digite seu cpf">
+                        </div>
+                        
+                    </div>
+                    <div class="right-signup">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Digite o seu email">
+                        </div>
+                        <div class="form-group">
+                            <label for="telefone">Telefone</label>
+                            <input type="text" class="form-control" id="telefone" placeholder="Digite o seu telefone">
+                        </div>
+                        <div class="form-group">
+                            <label for="dt_nasc">Data de nascimento</label>
+                            <input type="dt_nasc" class="form-control" id="dt_nasc" placeholder="Digite a sua data de nascimento">
+                        </div>
+                        <div class="center-text">
+                            <form id="signupForm"><button type="submit" class="btn btn-cadastrar">Cadastrar</button></form>
+                            <br>
+                            <a href="login">Já possuo uma conta</a>
+                        </div>
+                        
+                    </div>
+                </div>
+        </div>
+    </div>
+
+<%- include('partials/footer.ejs') %>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="/js/signup.js"></script>

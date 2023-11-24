@@ -1,0 +1,46 @@
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+  "nm_usuario": "teste22222",
+  "login": "teste123",
+  "senha": "1234",
+  "cpf": "50622588800",
+  "email": "teste@email.com",
+  "telefone": "5513974115321",
+  "dt_nasc": "01/01/1990",
+  "dt_val_licenca": "01/01/2024"
+}
+
+###
+GET http://localhost:3000/api/users
+
+###
+GET http://localhost:3000/api/users/655295dca62deed7db30a6db
+
+###
+DELETE http://localhost:3000/api/users/654cf0cd5cbcf4894c2dab05
+
+###
+PUT http://localhost:3000/api/users/654cf3d13901d37da38d3b38
+Content-Type: application/json
+
+{
+  "nm_usuario": "testeUpdate",
+  "login": "teste",
+  "senha": "123",
+  "cpf": "50622588800",
+  "email": "teste@email.com",
+  "telefone": "5513974115321",
+  "dt_nasc": "01/01/1990",
+  "dt_val_licenca": "01/01/2024"
+}
+###
+
+POST http://localhost:3000/api/users/login
+Content-Type: application/json
+
+{
+  "login": "teste224",
+  "senha": "1234"
+}

@@ -1,0 +1,131 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    /*background-image: linear-gradient(215deg, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.068));*/
+    background-image: url(/imgs/fundo.jpg);
+    background-size: cover;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container .content {
+    /*background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);*/
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 100%;
+}
+.login-form {
+    flex: 1;
+    margin-right: 20px;
+}
+.logo-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    max-width:300px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group input {
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.btn-entrar {
+    background-color: #3caf1b;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px 30px;
+    color: #fff;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+}
+.btn-entrar:hover {
+    background-color: #4bdb00;
+}
+
+a {
+    color: #000;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+a :hover{
+    color:#262626;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.055);
+    padding: 0;
+    margin: auto;
+    margin-top: 20px;
+    width: 300px;
+    height: 120px;
+    backdrop-filter: blur(5px);
+}
+
+.cont a {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #262626;
+}
+
+.cont p{
+    margin-left: 30px;
+}
+
+.card h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+
+.senha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 45px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-top: -30px;
+}
+

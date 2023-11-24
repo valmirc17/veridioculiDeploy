@@ -1,0 +1,165 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(215deg, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.068));
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-height: 80%;
+    max-width: 1400px;
+}
+
+.container .content {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    max-height: 90vh;
+}
+
+.container .content-2 {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-height: 90vh;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.title{
+    padding: 30px;
+}
+
+.text{
+    width: 600px;
+}
+
+.cards{
+    padding: 5px;
+}
+.card-01{
+    margin-left: -120px;
+    padding: 5px;
+}
+.card-02{
+    padding: 5px;
+}
+
+.card-03{
+    margin-left: -120px;
+    padding: 5px;
+}
+
+.img{
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+    background-color: #3caf1b;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px 30px;
+    color: #fff;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+}
+.btn:hover {
+    background-color: #4bdb00;
+}
+
+.icon{
+    padding: 0;
+    margin: 0;
+    
+}
+
+#img-input {
+    display: block;
+    width: 800px;
+    height: 400px;
+    background: #a5d398;
+    color: #fff;
+    padding: 12px;
+    margin: 10px auto;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative; /* Adicione esta linha para criar um contexto de posicionamento para a imagem */
+}
+
+#input-file{
+    display: none;
+}
+
+.linha-verde {
+    width: 55%;
+    height: 3px;
+    background-color: #3caf1b;
+    border-radius: 10px;
+}
+.cont {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 800px;
+    background: #f5f5f5;
+    border-radius: 5px;
+    text-align: center;
+    color: #333;
+    line-height: 350px; /* Ajuste a altura conforme necessário */
+}
+
+.options{
+    padding: 20px;
+}
+
+button{
+    margin: 5px;
+}
+
+#img_upload {
+    width: 100%; /* Garante que a imagem preencha toda a largura da label */
+    height: 100%; /* Garante que a imagem preencha toda a altura da label */
+    object-fit: cover; /* Adiciona o object-fit para manter as proporções e cortar a imagem para preencher a label */
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-top: -35px;
+}
+
+
+
